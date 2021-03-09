@@ -8,7 +8,7 @@ class HelloWorldSkill(ChatterboxSkill):
     @intent_handler(IntentBuilder("helloWorld").
                     require('hello').require('world'))
     def handle_intent_name2Intent(self, message):
-        self.speak('hello world')
+        self.speak('hello world dev branch')
 
 
 def create_skill():
